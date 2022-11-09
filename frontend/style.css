@@ -1,0 +1,132 @@
+/* --- start of CSS reset --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+body {
+    min-width: 1400px;
+    overflow: scroll;
+}
+
+#root {
+    width: 100%;
+    min-width: 1600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #d2454b;
+}
+
+.header {
+    width: 100%;
+    height: 340px;
+    padding-left: 40px;
+    max-width: 1520px;
+}
+
+.h-img {
+    height: 100%;
+    background: transparent url(img/italy.png) no-repeat;
+    background-size: contain;
+}
+
+.vespa-logo {
+    width: 385px;
+    height: 400px;
+    position: relative;
+    left: 970px;
+    top: -300px;
+    filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, 0.765) );
+}
+
+.vl-circle {
+    background-color: #445d1c;
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+
+.vl-img {
+    height: 90%;
+    width: 80%;
+    position: absolute;
+    background: transparent url(img/vespa.png) no-repeat;
+    background-size: auto;
+    background-size: contain;
+    bottom: -1px;
+    left: 81px;
+}
+
+.vl-teamtext {
+    height: auto;
+    position: absolute;
+    bottom: 278px;
+    left: 22px;
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+span {
+    font-family: "Pacifico", cursive;
+    color: white;
+    font-size: x-large;
+}
+
+.container {
+    width: 100%;
+    max-width: 1520px;
+    height: auto;
+    background-color: #cbaa8b;
+    border: solid 11px #d9d9d9;
+    padding: 20px;
+}
+
+.title {
+    color: #463926;
+    font-family: "Kalam", cursive;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.title-text {
+    color: #463926;
+    font-family: "Kalam", cursive;
+    font-size: 30px;
+}
